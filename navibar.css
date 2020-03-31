@@ -1,0 +1,78 @@
+.navibar{
+    background-color: rgb(39, 48, 53);
+    position: sticky;
+    top: 0px;
+    left : 0px;
+    z-index: 1;
+    overflow: hidden;/* 화면의 움직임 고정 */
+
+}
+
+.ul_navis{
+    margin: 0;
+    padding: 0;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    font-size: 1.6rem;
+    border-top: 1.5px solid rgb(5, 1, 1);
+    border-bottom: 5px solid rgb(5, 134, 219);
+
+}
+.ul_navis .nav_li{
+    border-right: 1px dashed white;
+
+}
+.ul_navis li{
+    flex-grow: 1;
+    cursor: pointer;
+}
+.ul_navis button{
+    display: block;
+    cursor: pointer;
+    background-color: rgb(39, 48, 53);
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 33%;
+
+}
+.ul_navis button:hover{
+    color: yellow;
+    transform: skew(-20deg);
+
+}
+
+.scroll_top{
+    /* border-bottom: 1px blue solid ; */
+    border: 5px solid rgb(0, 255, 98);
+}
+@media(max-width:449px){
+    .ul_navis{
+ 
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    font-size: 1rem;
+    border-top: 1.5px solid rgb(5, 1, 1);
+    border-bottom: 5px solid rgb(5, 134, 219);
+    flex-grow: 1;
+    
+}
+.ul_navis button{
+    display: block;
+    cursor: pointer;
+    background-color: rgb(39, 48, 53);
+    /* color: white; */
+    font-size: 0.6rem;
+    /* text-align: center; */
+    /* margin-left: 33%; */
+
+}
+}
