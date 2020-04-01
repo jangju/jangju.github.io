@@ -38,17 +38,19 @@
     font-size: 2rem;
     text-align: center;
     margin-left: 33%;
-
+    padding: 6px 30px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .ul_navis button:hover{
     color: yellow;
-    transform: skew(-20deg);
+    transform: skew(-5deg);
 
 }
 
 .scroll_top{
     /* border-bottom: 1px blue solid ; */
     border: 5px solid rgb(0, 255, 98);
+    background-color: green;
 }
 @media(max-width:449px){
     .ul_navis{

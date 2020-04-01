@@ -41,12 +41,13 @@ function fnMove(num) {//원하는 좌표로 이동
     $('html, body').animate({ scrollTop: offset.top }, 900);
 }
 
-$(window).on('scroll', function () {
+$(window).scroll(function () {
     if ($(window).scrollTop() < 600) {
         $('#HOME_NAV').addClass('scroll_top');
     }
 })
-$(window).on('scroll',function(){
+
+$(window).scroll(function(){
     if($(window).scrollTop()>600){
         $('#ABOUT_NAV').addClass('scroll_top');
         $('#HOME_NAV').removeClass('scroll_top');
@@ -55,7 +56,7 @@ $(window).on('scroll',function(){
         $('#ABOUT_NAV').removeClass('scroll_top');
     }
 })
-$(window).on('scroll', function () {
+$(window).scroll(function () {
     if ($(window).scrollTop() > 1200) {
         $('#SKILLS_NAV').addClass('scroll_top');
         $('#ABOUT_NAV').removeClass('scroll_top');
@@ -64,7 +65,7 @@ $(window).on('scroll', function () {
     }
 })
 
-$(window).on('scroll', function () {
+$(window).scroll(function () {
     if ($(window).scrollTop() > 1500) {
         $('#CONTANT_NAV').addClass('scroll_top');
         $('#SKILLS_NAV').removeClass('scroll_top');

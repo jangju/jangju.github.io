@@ -117,10 +117,10 @@
     z-index: 0;
 }
 .skills_skillbox:hover .skills_img{
-     opacity: 0.7;/*투명도*/
+     opacity: 0.5;/*투명도*/
 }
 .skills_skillbox_all:hover .skills_img{
-     opacity: 0.7;/*투명도*/
+     opacity: 0.5;/*투명도*/
 }
 .skills_text {
   padding: 10px;
