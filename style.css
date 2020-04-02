@@ -37,7 +37,7 @@ time, mark, audio, video {
     background: linear-gradient(rgb(23, 21, 26), rgb(36, 53, 100));
     
  }
-#img_backcolor #jangjuyoung{
+#img_backcolor .jangjuyoung{
      position: absolute;
      top:35%; 
      left:40%;
