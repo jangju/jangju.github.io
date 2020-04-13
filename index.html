@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="skills.css">
     <link rel="stylesheet" href="contant.css">
+    <link rel="stylesheet" href="project.css">
     
-    <link rel="stylesheet" href="/fontello-f0cecca7/fontello-f0cecca7/css/fontello.css">
+    <link rel="stylesheet" href="/fontello-f0cecca7/css/fontello.css">
     <!-- <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
 
@@ -23,13 +24,14 @@
     <script src="introduce.js" defer></script>
     <script src="component.js" defer></script>
     <script src="skills_button.js" defer></script>
+    <script src="index.js" defer></script>
     
 </head>
 <body>
     <div id='img_backcolor'>
         <img class= "moon"id='img_Moon' src="/img/moon.png" alt="달 photo">
         <img id='img_buliding' src="/img/building.png" alt="빌딩 photo">
-        <h1 id='jangjuyoung'>Ju young Portfolio<br/>&nbsp;&nbsp;&nbsp;N Tech Service</h1>
+        <h1 id='jangjuyoung'>Ju young Portfolio</h1>
     </div>
     
     <nav class="navibar ">
@@ -37,6 +39,7 @@
             <li class="nav_li scroll"><button onclick="fnMove('#img_backcolor')" id="HOME_NAV">HOME</button></li>
             <li class="nav_li scroll"><button onclick="fnMove('.article_about')" id="ABOUT_NAV">ABOUT</button></li>
             <li class="nav_li scroll"><button onclick="fnMove('.article_skills')" id="SKILLS_NAV">SKILLS</button></li>
+            <li class="nav_li scroll"><button onclick="fnMove('.article_projects')" id="PROJECT_NAV">Project</button></li>
             <li class="scroll"><button onclick="fnMove('.footer')"id="CONTANT_NAV">CONTANT</button></li>    
         </ul>
     </nav>
@@ -162,8 +165,37 @@
           class="skills_button"
           onclick="event_button()"
         >스킬 더보기 ↓</label>
-        
-
+    
+    </article>
+    <article class="article_projects">
+        <h1 id="Project">
+            Project
+        </h1>
+        <div class="article_project">
+            <div class="project_img">
+                <img src="/img/pj_01.png" alt="프로젝트_장주영" class="pj_01">
+            </div>
+            <div class="project_ex">
+            <span style="font-size: 30px; font-weight: bold;">미니UI 프로젝트</span><br/><br/><br/>
+            사용자의 관점에서 재미삼아 제작하게 된 미니게임UI 영상입니다.<br/><br/><br/>
+            
+                2019.10 - 2019.11<br/>
+                리눅스/Qt Creator/C++<br/>
+                기획/개발 참여도 100%<br/><br/>
+                <div class="project_intro_button_box">
+                <div
+                  class="project_intro_button"
+                  onclick="youtube_on('C2n_y1lDTWY')">
+                    Youtube 보기
+                </div>
+                <div   
+                  class="project_intro_button"
+                  onclick="github_on('RunRun-')">
+                    Github 보기
+                </div>
+                </div>
+            </div>
+        </div>
     </article>
     <footer class='footer'>
         <div class='footer_topbutton_container'>
@@ -191,7 +223,10 @@
     
     </footer>
     
-
+    <div class="modal" onclick="modal_off()">
+        <div class="modal_close"><i class="icon-cancel"></i></div>
+        <div class="modal_youtube" id="player"></div>
+    </div>
 
 
 </body>

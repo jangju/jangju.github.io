@@ -68,7 +68,13 @@ time, mark, audio, video {
 }
 
 
-.article_skills .fadeinleft_2{
+.article_skills .fadeinleft_2 {
+    opacity:0;
+    margin-left:-300px;    
+    max-width:100%;
+}
+
+.article_project{
     opacity:0;
     margin-left:-300px;    
     max-width:100%;

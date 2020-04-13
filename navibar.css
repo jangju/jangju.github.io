@@ -46,6 +46,9 @@
     transform: skew(-5deg);
 
 }
+.scroll{
+    padding-right: 5%;
+}
 
 .scroll_top{
     /* border-bottom: 1px blue solid ; */

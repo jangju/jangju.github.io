@@ -41,7 +41,7 @@
     
 }
  #SKILLS::before{
-     content: "";
+    content: "";
     position: absolute;
     margin-left: 43.5%;
     padding-left: 0;
