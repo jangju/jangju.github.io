@@ -15,7 +15,7 @@ footer{
   height: 50px;
 }
 .up_button{
-  background-color: rgb(67, 67, 223);
+  background-color: rgb(115, 221, 115);
   width: 80px;
   height: 60px;
   border-radius: 30px;
@@ -24,9 +24,13 @@ footer{
   align-items: center;
 }
 .up_ani{
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   font-weight : bold;
   cursor: pointer;
+  width: 80px;
+  height: 60px;
+  border-radius: 30px;
+  text-align: center;
 }
 .up_ani:hover{
   animation: up_buttons 1s;
@@ -64,7 +68,7 @@ footer{
   color: white;
 }
 .fontello2 a i:hover{
-  color : rgb(97, 110, 223);
+  color : rgb(115, 221, 115);
 }
 .footer_jangjuyoung{
   background-color: #161c24;

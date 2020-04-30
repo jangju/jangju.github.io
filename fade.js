@@ -37,7 +37,7 @@ $(document).ready(function () {
 });
 $(document).ready(function () {
     $(window).scroll(function () {
-        $('.article_project').each(function (i) {
+        $('#article_project_1').each(function (i) {
 
             var bottom_of_element = $(this).offset().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -88,7 +88,7 @@ $(window).scroll(function () {
     }
 })
 $(window).scroll(function () {
-    if ($(window).scrollTop() > 2200) {
+    if ($(window).scrollTop() > 2380) {
         $('#CONTANT_NAV').addClass('scroll_top');
         $('#PROJECT_NAV').removeClass('scroll_top');
     } else {

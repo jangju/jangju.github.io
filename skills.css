@@ -150,3 +150,16 @@
     cursor: pointer;
     background-color: rgb(158, 223, 158);
 }
+@media(max-width:449px){
+    .skills_skillbox{
+    width: 150px;
+    height: 150px;
+    }
+    .skills_skillbox_all{
+    width: 150px;
+    height: 150px;
+    }
+    .skills_text{
+        font-size: 0.8rem;
+    }
+}

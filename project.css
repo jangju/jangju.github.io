@@ -1,3 +1,4 @@
+
 #Project{
     display: flex;
     justify-content: center;
@@ -9,8 +10,9 @@
     /* margin-bottom: 40px; */
     
 }
+
  #Project::before{
-     content: "";
+    content: "";
     position: absolute;
     margin-left: 43.5%;
     padding-left: 0;
@@ -20,19 +22,95 @@
 
     border-bottom: 3px solid black; 
 }
-.article_project{
+
+#project_div{
+  position: relative;
+}
+#article_project_1{
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+.article_project_2{
+  display: none;
+}
+.article_project_2_open{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.project_number{
+  display: block;
+  font-weight: 900;
+  color: rgb(104, 228, 104);
+} 
+.display_flex_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .project_img{
     margin-right: 10%;
 }
 .pj_01{
     width: 500px;
-
 }
+.pj_02{
+    width: 650px;
+}
+#project_Arrow{
+  display: flex;
+  justify-content: space-between; 
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin: 0;
+}
+
+#project_left, #project_right{
+  font-size: 5rem;
+  cursor: pointer;
+  color: #3c4446;
+}
+
+#project_left:hover,#project_right:hover{
+  transform:scale(1.2);
+  color: #050707;
+}
+
+
+
+#pos{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+#pos li{
+  list-style:none;
+   float: left;
+}
+input[type="radio"]{
+    display:none;
+}
+input[type="radio"] + label{
+    background:none;
+    border:1px solid #dfdfdf;    
+    padding:0px 10px;
+    height:10px;
+    cursor:pointer;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+input[type="radio"]:checked + label{
+    border:1px solid #23a3a7;
+    background:#23a3a7;
+    color:#fff;
+}
+
+
 .modal {
   position: fixed;
   -js-display: flex;
@@ -94,11 +172,22 @@
 .project_intro_button i {
   font-size: 30px;
 }
-@media(max-width:449px){
-  .article_project{
+@media(max-width:800px){
+  #article_project_1{
     display: flex;
     flex-flow: column;
   }
+   #project_left{
+    font-size: 3rem;
+
+  }
+  #project_right{
+    font-size: 3rem;
+
+  }
+}
+@media(max-width:449px){
+ 
   .pj_01{
     width:300px;
   }
@@ -107,5 +196,13 @@
   }
   .project_intro_button{
     margin-right:12px;
+  }
+  #project_left{
+    font-size: 2rem;
+
+  }
+  #project_right{
+    font-size: 2rem;
+
   }
 }
