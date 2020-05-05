@@ -60,6 +60,14 @@
 .pj_02{
     width: 650px;
 }
+@keyframes article_project_1{
+    from{transform: translateY(-40px);opacity: 0;}
+    to{transform: translateY(10px);opacity: 1;}
+}
+@keyframes article_project_2{
+    from{transform: translateY(-40px);opacity: 0;}
+    to{transform: translateY(10px);opacity: 1;}
+}
 #project_Arrow{
   display: flex;
   justify-content: space-between; 
