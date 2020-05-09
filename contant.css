@@ -15,7 +15,7 @@ footer{
   height: 50px;
 }
 .up_button{
-  background-color: rgb(115, 221, 115);
+  background-color: #6383e9;
   width: 80px;
   height: 60px;
   border-radius: 30px;
@@ -68,7 +68,7 @@ footer{
   color: white;
 }
 .fontello2 a i:hover{
-  color : rgb(115, 221, 115);
+  color : #6383e9;
 }
 .footer_jangjuyoung{
   background-color: #161c24;

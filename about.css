@@ -31,7 +31,7 @@
     display: block;
     margin-left: 12.5%;
     width: 75%;
-    background-color:  rgb(164, 211, 164);
+    background-color:  #8297db;
 
 }
 .menu-link:hover{
@@ -97,7 +97,7 @@
     padding-right: 1.5%;
 }
 .menu_active{
-    background: rgb(164, 211, 164);
+    background: #8297db;
 }
 .menu_active2{
     background: linear-gradient(rgb(126, 122, 128), rgb(164, 166, 172));
