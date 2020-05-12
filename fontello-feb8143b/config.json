@@ -87,16 +87,16 @@
       "src": "fontawesome"
     },
     {
-      "uid": "94089b37297572e936b0943bcfa041d3",
-      "css": "angle-circled-right",
-      "code": 61752,
-      "src": "fontawesome"
+      "uid": "004882ab2d5c418c5b2060e80596279b",
+      "css": "right-open-big",
+      "code": 59398,
+      "src": "entypo"
     },
     {
-      "uid": "8933c2579166c2ee56ae40dc6a0b4dc6",
-      "css": "angle-circled-left",
-      "code": 61751,
-      "src": "fontawesome"
+      "uid": "884cfc3e6e2d456dd2a2ca0dbb9e6337",
+      "css": "left-open-big",
+      "code": 59399,
+      "src": "entypo"
     }
   ]
 }
