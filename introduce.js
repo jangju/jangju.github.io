@@ -1,4 +1,4 @@
-
+// 'use strict';//정확히 고려되지 않은 기능들을 방지
     str0 = document.querySelector('.about_1').innerHTML;
     str1 = document.querySelector('.about_2').innerHTML;
     str2 = document.querySelector('.about_3').innerHTML;

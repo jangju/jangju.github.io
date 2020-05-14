@@ -1,4 +1,4 @@
-
+'use strict';//정확히 고려되지 않은 기능들을 방지
 // var apps = {
 //     template: '<button v-on:click="addnumber">Click</button>',
 //     methods : {

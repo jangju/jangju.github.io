@@ -1,3 +1,4 @@
+'use strict';//정확히 고려되지 않은 기능들을 방지
 var skills_button = document.querySelector('.skills_button');
 var skills_skillbox_all=document.querySelectorAll('.skills_skillbox_all');
 var key = 1;

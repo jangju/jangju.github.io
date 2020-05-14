@@ -1,3 +1,4 @@
+'use strict';//정확히 고려되지 않은 기능들을 방지
 // function fadeinout($obj) {
 //     //console.log($obj)
 //     $obj.fadeIn(3000, function () {
