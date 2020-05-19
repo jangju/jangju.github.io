@@ -1,4 +1,4 @@
-'use strict';//정확히 고려되지 않은 기능들을 방지
+// 'use strict';//정확히 고려되지 않은 기능들을 방지
 // function fadeinout($obj) {
 //     //console.log($obj)
 //     $obj.fadeIn(3000, function () {
@@ -15,7 +15,7 @@ $(document).ready(function () {
             var bottom_of_window = $(window).scrollTop() + $(window).height();
 
             if (bottom_of_window > bottom_of_element) {
-                $(this).animate({ 'opacity': '1', 'margin-left' : '200px' }, 1000);
+                $(this).animate({ 'opacity': '1', 'margin-left' : '300px' }, 1000);
             }
 
         });
@@ -30,7 +30,7 @@ $(document).ready(function () {
             var bottom_of_window = $(window).scrollTop() + $(window).height();
 
             if (bottom_of_window > bottom_of_element) {
-                $(this).animate({ 'opacity': '1', 'margin': '50px' }, 1000);
+                $(this).animate({ 'opacity': '1', 'margin': '25px' }, 1000);
             }
 
         });
@@ -42,11 +42,12 @@ $(document).ready(function () {
 
             var bottom_of_element = $(this).offset().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
-
+            
             if (bottom_of_window > bottom_of_element) {
                 $(this).animate({ 'opacity': '1', 'margin': '100px' }, 1000);
+                
             }
-
+            
         });
     });
 });

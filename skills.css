@@ -8,6 +8,10 @@
     overflow-y: hidden;
     overflow-x: hidden;
 }
+.article_skills #skillbox_containar_center{
+    margin-left: -50px;
+    width: 1000px;
+}
 .article_skills #skillbox_containar{
     display: flex;
     justify-content: space-around;
@@ -57,7 +61,7 @@
     padding: 4% 0;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    background-color: #6383e9;
+    background-color: #e7e405d3;
     /* background-color: rgb(160, 223, 160); */
     font-size: 1.2em;
     font-weight: 700;
@@ -144,7 +148,7 @@
     font-size: 1.2em;
     padding: 15px 30px;
     width: 140px;
-    border: 2px solid #6383e9;
+    border: 3px solid #fffb01;
 
     /* border : 2px solid rgb(113, 192, 113); */
     margin-bottom: 30%;
@@ -152,7 +156,7 @@
 }
 .skills_button:hover{
     cursor: pointer;
-    background-color: #9caee9;
+    background-color: #d4d100d3;
 }
 @media(max-width:449px){
     .skills_skillbox{

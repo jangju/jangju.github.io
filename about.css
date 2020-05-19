@@ -20,7 +20,6 @@
     left: 0;
     width: 13%;
     height: 10%;
-
     border-bottom: 3px solid black; 
 }
 .introduce{
@@ -31,45 +30,44 @@
     display: block;
     margin-left: 12.5%;
     margin-bottom: 5%;
-    width: 75%;
-    background-color:  #8297db;
+    width: 60%;
+    background-color:  #e7e405d3;
 
 }
-.menu-link:hover{
-    color: rgb(0, 255, 255);
+
+
+.introduce .menus{
+border: 2px  dotted gray; 
+list-style: none; 
+display: flex; 
 }
-.menus{
-    flex-grow: 1;
-    display: inline-block;  
-    border: 1px dashed gray;
-    width: auto;
-}
-.menus a{
-    display: block;
-    text-decoration: none;
-    line-height: 7rem;
-    border-bottom: 1px dashed gray;
-    padding-left: 30px;
-    padding-right: 30px;
-    text-align: center;
-    font-size: 1.7rem;
-    color: black;
+.introduce .menus .menu-link{
+    cursor: pointer;
+    flex: 1;
+    color: white;
     height: 7rem;
-    width: auto;
-    font-style: italic;
+    font-size: 1.3rem;
+
+    text-align: center;
+    line-height: 100px;
     
 }
+.introduce .menus .menu-link:hover{
+    color: black;
+}
+
 
 .introduce .about_1{
     display:inline-block;
-    position: absolute;
     /* left: 28%; */
     width: auto;
     height: 380px;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+    font-size: 20px;
     padding:20px 60px;
     overflow:hidden;
     word-wrap:break-all;
+    color: black;
 }
 .introduce .about_2{
     display: none;
@@ -98,7 +96,7 @@
     padding-right: 1.5%;
 }
 .menu_active{
-    background: #8297db;
+    background: #e7e405d3;
 }
 .menu_active2{
     background: linear-gradient(rgb(126, 122, 128), rgb(164, 166, 172));

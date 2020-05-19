@@ -1,4 +1,4 @@
-'use strict';//정확히 고려되지 않은 기능들을 방지
+// 'use strict';//정확히 고려되지 않은 기능들을 방지
 function github_on(e) {
     window.open("https://github.com/jangju/Jang");
 }

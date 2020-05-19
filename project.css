@@ -30,7 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    /* padding: 0px 50px; */
 }
 .article_project_2{
   display: none;
@@ -55,10 +55,10 @@
     margin-right: 10%;
 }
 .pj_01{
-    width: 500px;
+    width: 450px;
 }
 .pj_02{
-    width: 650px;
+    width: 450px;
 }
 @keyframes article_project_1{
     from{transform: translateY(-40px);opacity: 0;}
@@ -87,8 +87,6 @@
   transform:scale(1.2);
   color: #050707;
 }
-
-
 
 #pos{
   display: flex;
@@ -165,17 +163,19 @@ input[type="radio"]:checked + label{
 }
 .project_intro_button {
   width: 48.5%;
-  line-height: 50px;
+  line-height: 45px;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1rem;
   font-weight: 400;
   cursor: pointer;
-  border: 1.5px solid #fe4a49;
+  border: 2px solid #fffb00;
   transition: all 0.3s ease-in-out;
+  margin-right: 15px;
+  /* padding: 0px 30px; */
 }
 .project_intro_button:hover {
   color: white;
-  background-color: #fe4a49;
+  background-color: #e7e405d3;
 }
 .project_intro_button i {
   font-size: 30px;

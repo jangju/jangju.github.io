@@ -19,7 +19,8 @@
     align-items: center;
     font-size: 1.6rem;
     border-top: 1.5px solid rgb(5, 1, 1);
-    border-bottom: 5px solid rgb(5, 134, 219);
+    /* border-bottom: 5px solid rgb(5, 134, 219); */
+    border-bottom: 5px solid #e7e405d3;
 
 }
 .ul_navis .nav_li{
@@ -42,7 +43,7 @@
     font-family: '맑은 고딕', 'Malgun Gothic', serif;
 }
 .ul_navis button:hover{
-    color: #6383e9;
+    color: #fffb00;
     transform: skew(-5deg);
 
 }
@@ -51,10 +52,10 @@
 }
 
 .scroll_top{
-    /* border-bottom: 1px blue solid ; */
-    border: 5px solid #5679ee;
-    
+    color: #6383e9;
+    border: 5px solid #e7e405d3;
 }
+
 @media(max-width:449px){
 
     .ul_navis{

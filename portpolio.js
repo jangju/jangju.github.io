@@ -1,4 +1,4 @@
-'use strict';//정확히 고려되지 않은 기능들을 방지
+// 'use strict';//정확히 고려되지 않은 기능들을 방지
 var article_project_1 = document.querySelector('#article_project_1');
 var article_project_2 = document.querySelector('.article_project_2');
 var pos_checked = document.querySelectorAll('.cursor');
