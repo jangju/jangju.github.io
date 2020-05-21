@@ -19,6 +19,7 @@
     <script src="JSP/skills_button.js" defer></script>
     <script src="JSP/index.js" defer></script>
     <script src="JSP/portpolio.js" defer></script>
+    <script src="JSP/Day_Night_select.js" defer></script>
     <link rel="stylesheet" href="/fontello-feb8143b/css/fontello.css">
     <!-- <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script> -->
     
@@ -30,11 +31,24 @@
 </head>
 <body>
     <div id='img_backcolor'>
-        <img class= "moon"id='img_Moon' src="/img/sun.png" alt="달 photo">
-        <img id='img_buliding' src="/img/building_gray.png" alt="빌딩 photo">
-        <h1 id='jangjuyoung'>Ju young Portfolio</h1>
+        <img  id='img_Sun' src="/img/sun.png" alt="해 photo">
+        <img class='img_buliding' src="/img/building_gray.png" alt="빌딩 photo">
+        <h1 class='jangjuyoung'>Ju young Portfolio</h1>
+        <div class="Day_Night_select">
+            <input type="button" class="Day_select_button" value="Day" onclick="Day_select()" >
+            <input type="button" class="Night_select_button" value="Night" onclick="Night_select()">
+        </div>
     </div>
-    
+    <div id='img_backcolor_2'> 
+        <img  id='img_Moon' src="/img/moon.png" alt="달 photo">
+        <img class='img_buliding' src="/img/building.png" alt="빌딩 photo">
+        <h1 class='jangjuyoung'>Ju young Portfolio</h1>
+        <div class="Day_Night_select">
+            <input type="button" class="Day_select_button" value="Day" onclick="Day_select()">
+            <input type="button" class="Night_select_button" value="Night" onclick="Night_select()">
+        </div>
+    </div>
+   
     <nav class="navibar">
         <ul class ='ul_navis'>
             <li class="nav_li scroll"><button onclick="fnMove('#img_backcolor')" id="HOME_NAV">HOME</button></li>

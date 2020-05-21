@@ -57,6 +57,7 @@ function fnMove(num) {//원하는 좌표로 이동
     $('html, body').animate({ scrollTop: offset.top }, 900);
 }
 
+
 $(window).scroll(function () {//ABOUT 
     if ($(window).scrollTop() < 600) {
         $('#HOME_NAV').addClass('scroll_top');
@@ -73,7 +74,7 @@ $(window).scroll(function(){//SKILLS
     }
 })
 $(window).scroll(function () {
-    if ($(window).scrollTop() > 1200) {
+    if ($(window).scrollTop() > 1300) {
         $('#SKILLS_NAV').addClass('scroll_top');
         $('#ABOUT_NAV').removeClass('scroll_top');
     } else {
@@ -82,7 +83,7 @@ $(window).scroll(function () {
 })
 
 $(window).scroll(function () {
-    if ($(window).scrollTop() > 1750) {
+    if ($(window).scrollTop() > 1800) {
         $('#PROJECT_NAV').addClass('scroll_top');
         $('#SKILLS_NAV').removeClass('scroll_top');
     } else {
@@ -90,7 +91,7 @@ $(window).scroll(function () {
     }
 })
 $(window).scroll(function () {
-    if ($(window).scrollTop() > 2380) {
+    if ($(window).scrollTop() > 2550) {
         $('#CONTANT_NAV').addClass('scroll_top');
         $('#PROJECT_NAV').removeClass('scroll_top');
     } else {

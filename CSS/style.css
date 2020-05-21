@@ -19,15 +19,19 @@ time, mark, audio, video {
     vertical-align: baseline;
      
 }
-#img_Moon {
+#img_Sun {
     width: 550px;
     position : sticky;
-    top: 50px;
-    left : 470px;
-    /* box-shadow: 0px 0px 20px rgb(236, 9, 9); */
-
+    top: 8%;
+    left : 30.5%;
 }
-#img_backcolor #img_buliding{
+#img_Moon{
+    width: 180px;
+    position : sticky;
+    top: 5%;
+    left : 85%;
+}
+.img_buliding{
     width: 100%;
     position: absolute;
     height: 246px;
@@ -39,7 +43,13 @@ time, mark, audio, video {
     background: linear-gradient( rgb(241, 102, 9),rgb(238, 170, 24),rgb(248, 223, 0));
     
  }
-#img_backcolor #jangjuyoung{
+ #img_backcolor_2{
+    display: none;
+    height: 100vh;
+    background: linear-gradient( rgb(4, 0, 36),rgb(3, 6, 145),rgb(77, 106, 231));
+    
+ }
+.jangjuyoung{
      position: absolute;
      top:35%; 
      left:40%;
@@ -49,6 +59,11 @@ time, mark, audio, video {
      font-size: 200%;
      /* display: block; */
      animation: fadeinout 2s  infinite;
+}
+.Day_Night_select{
+    position: absolute;
+    top: 5px;
+    left: 5px;
 }
 @keyframes fadeinout{
     0%{opacity: 0.1;}
