@@ -41,6 +41,7 @@
     margin-left: 33%;
     padding: 6px 30px;
     font-family: '맑은 고딕', 'Malgun Gothic', serif;
+    border:  0px;
 }
 .ul_navis button:hover{
     color: #fffb00;
@@ -52,8 +53,8 @@
 }
 
 .scroll_top{
-    color: #6383e9;
-    border: 5px solid #e7e405d3;
+    color: #fffb00d3 !important;/*버튼스크롤 우선순위*/
+    border: rgb(39, 48, 53);
 }
 
 @media(max-width:449px){
