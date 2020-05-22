@@ -1,7 +1,5 @@
 .article_about{
     padding-top: 40px;
-    /* display: flex; */
-    /* justify-content: center; */
 }
 #ABOUT{
     display: flex;
@@ -44,7 +42,7 @@ display: flex;
 .introduce .menus .menu-link{
     cursor: pointer;
     flex: 1;
-    color: white;
+    color: black;
     height: 7rem;
     font-size: 1.3rem;
 
@@ -53,7 +51,7 @@ display: flex;
     
 }
 .introduce .menus .menu-link:hover{
-    color: black;
+    color: white;
 }
 
 
@@ -101,6 +99,11 @@ display: flex;
 .menu_active2{
     background: linear-gradient(rgb(126, 122, 128), rgb(164, 166, 172));
 }
+.Night_color{
+    color: white !important;
+    background-color: rgb(74, 76, 211) ;
+}
+
 @media (max-width: 1200px){
     .introduce .about_1{
         font-size: 1.1em;
