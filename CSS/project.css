@@ -77,12 +77,18 @@
   margin: 0;
 }
 
-#project_left, #project_right{
+#project_left{
   font-size: 5rem;
   cursor: pointer;
   color: #3c4446;
+  margin-left: 130px;
 }
-
+#project_right{
+  font-size: 5rem;
+  cursor: pointer;
+  color: #3c4446;
+  margin-right: 130px
+}
 #project_left:hover,#project_right:hover{
   transform:scale(1.2);
   color: #050707;

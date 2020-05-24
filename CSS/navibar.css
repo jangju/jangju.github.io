@@ -19,7 +19,6 @@
     align-items: center;
     font-size: 1.6rem;
     border-top: 1.5px solid rgb(5, 1, 1);
-    /* border-bottom: 5px solid rgb(5, 134, 219); */
     border-bottom: 5px solid #e7e405d3;
 
 }
@@ -35,7 +34,6 @@
     display: block;
     cursor: pointer;
     background-color: rgb(39, 48, 53);
-    color: white;
     font-size: 2rem;
     text-align: center;
     margin-left: 33%;
@@ -46,16 +44,20 @@
 .ul_navis button:hover{
     color: #fffb00;
     transform: skew(-5deg);
-
 }
+.button_color{
+    color: white;
+}
+
 .scroll{
     padding-right: 5%;
 }
 
 .scroll_top{
-    color: #fffb00d3 !important;/*버튼스크롤 우선순위*/
+    color: #fffb00d3;/*버튼스크롤 우선순위*/
     border: rgb(39, 48, 53);
 }
+
 
 @media(max-width:449px){
 

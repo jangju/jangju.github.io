@@ -36,8 +36,8 @@
         <img class='img_buliding' src="/img/building_gray.png" alt="빌딩 photo">
         <h1 class='jangjuyoung'>Ju young Portfolio</h1>
         <div class="Day_Night_select">
-            <input type="button" class="Day_select_button" value="Day" onclick="Day_select()" >
-            <input type="button" class="Night_select_button" value="Night" onclick="Night_select()">
+            <input type="button" class="Day_select_button" value="Day" onclick="Day_select(), Day_num()" >
+            <input type="button" class="Night_select_button" value="Night" onclick="Night_select(),Night_num()">
         </div>
     </div>
     <div id='img_backcolor_2'> 
@@ -52,11 +52,11 @@
    
     <nav class="navibar">
         <ul class ='ul_navis'>
-            <li class="nav_li scroll"><button onclick="fnMove('#top_img')" id="HOME_NAV">HOME</button></li>
-            <li class="nav_li scroll"><button onclick="fnMove('.article_about')" id="ABOUT_NAV">ABOUT</button></li>
-            <li class="nav_li scroll"><button onclick="fnMove('.article_skills')" id="SKILLS_NAV">SKILLS</button></li>
-            <li class="nav_li scroll"><button onclick="fnMove('.article_projects')" id="PROJECT_NAV">Project</button></li>
-            <li class="scroll"><button onclick="fnMove('.footer')"id="CONTANT_NAV">CONTANT</button></li>    
+            <li class="nav_li scroll"><button onclick="fnMove('#top_img')" id="HOME_NAV" class="button_color">HOME</button></li>
+            <li class="nav_li scroll"><button onclick="fnMove('.article_about')" id="ABOUT_NAV" class="button_color">ABOUT</button></li>
+            <li class="nav_li scroll"><button onclick="fnMove('.article_skills')" id="SKILLS_NAV" class="button_color">SKILLS</button></li>
+            <li class="nav_li scroll"><button onclick="fnMove('.article_projects')" id="PROJECT_NAV" class="button_color">Project</button></li>
+            <li class="scroll"><button onclick="fnMove('.footer')"id="CONTANT_NAV" class="button_color">CONTANT</button></li>    
         </ul>
     </nav>
     <article class="article_about">
@@ -250,7 +250,7 @@
     </article>
     <footer class='footer'>
         <div class='footer_topbutton_container'>
-            <div class="up_button" onclick="fnMove('#img_backcolor')"><span class="up_ani">↑</span></div>
+            <div class="up_button" onclick="fnMove('#top_img')"><span class="up_ani">↑</span></div>
         </div>
         <div class="fontello_all_div">
             <div class="fontello1">

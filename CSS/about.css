@@ -99,9 +99,32 @@ display: flex;
 .menu_active2{
     background: linear-gradient(rgb(126, 122, 128), rgb(164, 166, 172));
 }
+.fontello_color_js{
+    color: white;
+}
+.fontello_color_js:hover{
+    color: #3769d4 !important;
+}
 .Night_color{
+    color: #3769d4 !important;
+}
+.Night_color:hover{
+    color: #3769d4 !important;
+}
+.Night_color_background{
     color: white !important;
-    background-color: rgb(74, 76, 211) ;
+    background-color: #3769d4 !important; 
+     
+}
+.Night_color_hover:hover{
+    color : white;
+    background-color: #3769d4 !important;
+}
+/*Navibar 스크롤 전용*/
+
+.Night_color_hover_scroll:hover{
+    
+    color: #3769d4 !important;
 }
 
 @media (max-width: 1200px){
