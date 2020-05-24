@@ -16,6 +16,7 @@ fontello = document.querySelectorAll('.fontello2 a i');
 function Day_select(){
     Day_img.style.display = 'block';
     Night_img.style.display = 'none';
+    
 }
 function Night_select() {
     Day_img.style.display = 'none';
