@@ -118,10 +118,9 @@ input[type="radio"] + label{
 
 input[type="radio"]:checked + label{
     border:1px solid #23a3a7;
-    background:#23a3a7;
+    background: #fffb00;
     color:#fff;
 }
-
 
 .modal {
   position: fixed;

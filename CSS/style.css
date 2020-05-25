@@ -21,10 +21,10 @@ time, mark, audio, video {
 }
 
 #img_Sun {
-    width: 530px;
+    width: 550px;
     position : sticky;
-    top: 17%;
     left : 31.5%;
+    top: 17%;
 }
 #img_Moon{
     width: 180px;

@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="CSS/project.css">
     <link rel="stylesheet" href="CSS/contant.css">
 
+    <script src="JSP/Day_Night_select.js" defer></script>
     <script src="JSP/fade.js" defer></script>
     <script src="JSP/introduce.js" defer></script>
     <script src="JSP/component.js" defer></script>
     <script src="JSP/skills_button.js" defer></script>
     <script src="JSP/index.js" defer></script>
     <script src="JSP/portpolio.js" defer></script>
-    <script src="JSP/Day_Night_select.js" defer></script>
     <link rel="stylesheet" href="/fontello-feb8143b/css/fontello.css">
     <!-- <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script> -->
     
@@ -31,24 +31,24 @@
 </head>
 <body>
     <div id="top_img"></div>
-    <div id='img_backcolor'>
-        <img id='img_Sun' src="/img/sun.png" alt="해 photo">
-        <img class='img_buliding' src="/img/building_gray.png" alt="빌딩 photo">
-        <h1 class='jangjuyoung'>Ju young Portfolio</h1>
-        <div class="Day_Night_select">
-            <input type="button" class="Day_select_button" value="Day" onclick="Day_select(), Day_num()">
-            <input type="button" class="Night_select_button" value="Night" onclick="Night_select(),Night_num()">
+        <div id='img_backcolor'>
+                <img id='img_Sun' src="/img/sun.png" alt="해 photo">
+                <img class='img_buliding' src="/img/building_gray.png" alt="빌딩 photo">
+                <h1 class='jangjuyoung'>Ju young Portfolio</h1>
+                <div class="Day_Night_select">
+                    <input type="button" class="Day_select_button" value="Day" onclick="Day_select(), Day_num()">
+                    <input type="button" class="Night_select_button" value="Night" onclick="Night_select(),Night_num()">
+            </div>
         </div>
-    </div>
-    <div id='img_backcolor_2'> 
-        <img  id='img_Moon' src="/img/moon.png" alt="달 photo">
-        <img class='img_buliding' src="/img/building.png" alt="빌딩 photo">
-        <h1 class='jangjuyoung'>Ju young Portfolio</h1>
-        <div class="Day_Night_select">
-            <input type="button" class="Day_select_button" value="Day" onclick="Day_select()">
-            <input type="button" class="Night_select_button" value="Night" onclick="Night_select()">
+        <div id='img_backcolor_2'>
+            <img id='img_Moon' src="/img/moon.png" alt="달 photo">
+            <img class='img_buliding' src="/img/building.png" alt="빌딩 photo">
+            <h1 class='jangjuyoung'>Ju young Portfolio</h1>
+            <div class="Day_Night_select">
+                <input type="button" class="Day_select_button" value="Day" onclick="Day_select()">
+                <input type="button" class="Night_select_button" value="Night" onclick="Night_select()">
+            </div>
         </div>
-    </div>
    
     <nav class="navibar">
         <ul class ='ul_navis'>
@@ -129,35 +129,35 @@
                         <span class="skills_title">HTML5</span>
                         <div class="skills_img" style="background-image: url('./img/html.png')"></div>
                         <p class="skills_text">
-                            ㆍ레이아웃 구조<br />
-                            ㆍ문서의 구조에 대한 이해<br />
-                            ㆍ웹표준 기반 태그<br />
+                            ㆍ<span style='font-weight: 700;'>태그선택자</span> 사용<br />
+                            ㆍ<span style='font-weight: 700;'>문서의 구조</span>에 대해 작성<br />
+                            ㆍ웹표준 기반 <span style='font-weight: 700;'>태그 사용</span><br />
                         </p>
                     </div>
                     <div class="skills_skillbox ">
                         <span class="skills_title">CSS</span>
                         <div class="skills_img" style="background-image: url('./img/css.png')"></div>
                         <p class="skills_text">
-                            ㆍFlex레이아웃 구조<br />
-                            ㆍ@Media query 작성<br />
-                            ㆍ애니메이션에 대한 이해<br />
+                            ㆍ<span style='font-weight: 700;'>Flex 및 Position</span> 작성<br />
+                            ㆍ<span style='font-weight: 700;'>@Media query</span> 작성<br />
+                            ㆍ<span style='font-weight: 700;'>애니메이션</span>에 대한 이해<br />
                         </p>
                     </div>
                     <div class="skills_skillbox ">
                         <span class="skills_title">JavaScript</span>
                         <div class="skills_img" style="background-image: url('./img/js.png')"></div>
                         <p class="skills_text">
-                            ㆍDOM 작성<br />
-                            ㆍ이벤트 함수 응용<br />
-                            ㆍ파일 모듈화 정리<br />
+                            ㆍ<span style='font-weight: 700;'>DOM</span> 작성<br />
+                            ㆍ<span style='font-weight: 700;'>이벤트 함수</span> 응용<br />
+                            ㆍ<span style='font-weight: 700;'>파일 모듈화</span> 정리<br />
                         </p>
                     </div>
                     <div class="skills_skillbox">
                         <span class="skills_title">Jquery</span>
                         <div class="skills_img" style="background-image: url('./img/jquery.png')"></div>
                         <p class="skills_text">
-                            ㆍjquery 셀렉터 사용<br />
-                            ㆍ이벤트 바인딩과 속성 작성<br />
+                            ㆍ<span style='font-weight: 700;'>Jquery 셀렉터</span> 사용<br />
+                            ㆍ<span style='font-weight: 700;'>이벤트 바인딩</span>과 속성 작성<br />
                         </p>
                     </div>
                     
@@ -166,8 +166,8 @@
                     <span class="skills_title">PhotoShop</span>
                     <div class="skills_img" style="background-image: url('./img/photoshop.png')"></div>
                     <p class="skills_text">
-                        ㆍGTQ포토샵 2급 취득<br />
-                        ㆍ이미지 색상 극대화<br />
+                        ㆍ<span style='font-weight: 700;'>GTQ포토샵</span> 2급 취득<br />
+                        ㆍ이미지 <span style='font-weight: 700;'>색상 극대화</span><br />
                     </p>
                 </div>
                 <div class="skills_skillbox_all">
@@ -175,7 +175,7 @@
                     <div class="skills_img" style="background-image: url('./img/vue.png')"></div>
                     <p class="skills_text">
                         ㆍ컴포넌트 통신<br />
-                        ㆍHTTP 통신 라이브러리<br />
+                        ㆍ<span style='font-weight: 700;'>HTTP 통신 라이브러리</span><br />
                 
                     </p>
                 </div>
@@ -185,7 +185,7 @@
                     <span class="skills_title">C++</span>
                     <div class="skills_img" style="background-image: url('./img/c++.png')"></div>
                     <p class="skills_text">
-                        ㆍAPI 활용<br />
+                        ㆍ<span style='font-weight: 700;'>API 활용</span><br />
                         ㆍ랜덤함수 적용<br />
                         ㆍUI 작업 <br />
                     </p>
@@ -255,9 +255,9 @@
         </div>
         <div class="fontello_all_div">
             <div class="fontello1">
-                <i class="icon-phone-squared"> <span class='phone_num'>010.9974.1067</span></i>
+                <i class="icon-phone-squared"> <span class='phone_num'>010-9974-1067</span></i>
                 <i class="icon-mail"> <span class='phone_num'>wkdwndud13@naver.com</span></i>
-                <i class="icon-location"> <span class='location''>경기도 의왕시 내손2동 약수터1길 63</span></i>
+                <i class="icon-location"> <span class='location''>경기도 군포시 용호1로 57</span></i>
                     </div>
                     <div class=' fontello2'>
                         <a href="https://open.kakao.com/o/s9VECw4b" target="_blank" class="fontel_talking"><i class="icon-talking"></i></a>
