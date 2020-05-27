@@ -20,6 +20,7 @@
     height: 10%;
     border-bottom: 3px solid black; 
 }
+/* 
 .introduce{
     position: relative;
     border-right: 1px dashed gray;
@@ -53,19 +54,33 @@ display: flex;
 .introduce .menus .menu-link:hover{
     color: white;
 }
+ */
+.introduce{
+    display: flex;
+    margin-bottom: 5%;
+}
+#about_left{
+    display: inline-block;
+    width: 18%;
+    /* padding-right: 3%; */
+    border-right: 3px dotted #2b2828;
 
-
+}
+.juyoung_information{
+    border-bottom: 1.5px solid black;
+}
+.juyoung_information_2{
+    font-weight: 600;
+}
+#about_right{
+    display: inline-block;
+    width: 57%;
+    padding-left :2%;
+    position: relative;
+    
+}
 .introduce .about_1{
-    display:inline-block;
-    /* left: 28%; */
-    width: auto;
-    height: 380px;
-    /* font-size: 1.5rem; */
-    font-size: 20px;
-    padding:20px 60px;
-    overflow:hidden;
-    word-wrap:break-all;
-    color: black;
+    font-size: 1.4rem;
 }
 .introduce .about_2{
     display: none;
@@ -76,28 +91,62 @@ display: flex;
 .introduce .about_4{
     display: none;
 }
-.about_1_p{
+.about_Title{
     font-size: 1.8rem;
-    font-weight: bold;
-    display: block;
-    text-align: center;
+    font-weight: 500;
+    display: inline-block;
+    background-color: black;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 20px;
+    margin-left:10%;
+}
+.about_Title_2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    display: inline-block;
+    background-color: black;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 20px;
+    margin-left: 22%;
+}
+#about_3_p{
+    padding-left: 2%;   
 }
 .strong_p{
     font-weight: bold;
 }
 .img_juyoung{
-    height: 160px;
-    width: 140px;
+    height: 220px;
+    width: 180px;
     bottom: 0px;
     left: 0px;
-    float: left;
+    /* float: left; */
     padding-right: 1.5%;
 }
-.menu_active{
-    background: #e7e405d3;
+#menus_position{
+    position: absolute;
+    /* left: 87%; */
+    right: 0%;
+    bottom: 0%;
 }
-.menu_active2{
-    background: linear-gradient(rgb(126, 122, 128), rgb(164, 166, 172));
+.menus{
+    list-style: none;
+}
+.menus li{
+    float: left;
+    font-size: 2rem;
+    
+}
+.menus li i{
+    cursor: pointer;
+    border-radius: 60px;
+}
+.menu_active{
+    border-radius: 60px;
+    background-color: black;
+    color: white;
 }
 .fontello_color_js{
     color: white;
