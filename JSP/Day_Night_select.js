@@ -2,7 +2,7 @@ var Day_img = document.querySelector('#img_backcolor');
 
 var ul_navis = document.querySelector('.ul_navis');
 var Night_img = document.querySelector('#img_backcolor_2');
-
+var juyoung_information = document.querySelectorAll('.juyoung_information');
 var skills_title = document.querySelectorAll('.skills_title');
 var skills_button = document.querySelector('.skills_button');
 var project_intro_button = document.querySelectorAll('.project_intro_button');
@@ -21,7 +21,12 @@ function Night_select() {
     Night_img.style.display = 'block';
     
     ul_navis.style.borderBottom = '5px solid #3769d4';
-    
+    for(let i =0; i<juyoung_information.length; ++i){
+        juyoung_information[i].style.background = '#6099ee';
+    }
+    for (var i = 0; i < about_spans.length; ++i) {
+        about_spans[i].style.borderBottom = '5px solid #3769d4';
+    }
     for(let i=0; i<7;++i){
         skills_title[i].classList.add('Night_color_background');
     }

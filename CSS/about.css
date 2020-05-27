@@ -4,6 +4,8 @@
     justify-content: center;
     align-items: center;
     flex-flow: column;
+    margin-bottom: 5%;
+    
 }
 #ABOUT{
     display: flex;
@@ -27,7 +29,6 @@
 
 .introduce{
     display: flex;
-    margin-bottom: 5%;
     
 }
 #about_left{
@@ -61,12 +62,21 @@
 }
 .introduce .about_2{
     display: none;
+    font-size: 1.15rem;
+    font-weight: 300;
+    line-height: 1.7em;/*띄어쓰기*/
 }
 .introduce .about_3{
     display: none;
+    font-size: 1.15rem;
+    font-weight: 300;
+    line-height: 1.7em;/*띄어쓰기*/
 }
 .introduce .about_4{
     display: none;
+    font-size: 1.15rem;
+    font-weight: 300;
+    line-height: 1.7em;/*띄어쓰기*/
 }
 .about_Title{
     font-size: 1.8rem;
@@ -95,7 +105,7 @@
     font-weight: bold;
 }
 .about_span{
-    border-bottom: 3px solid #bbb804d3;;
+    border-bottom: 3px solid #bbb804d3;
 }
 .img_juyoung{
     height: 220px;
@@ -128,6 +138,7 @@
     background-color: black;
     color: white;
 }
+
 .fontello_color_js{
     color: white;
 }
@@ -140,6 +151,7 @@
 .Night_color:hover{
     color: #3769d4 !important;
 }
+
 .Night_color_background{
     color: white !important;
     background-color: #3769d4 !important; 

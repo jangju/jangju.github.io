@@ -10,6 +10,7 @@ var key = 1;
 function project_left(){
     switch (key) {
         case 0://두번째 시작
+            console.log("두번째 시작");
             article_project_1.style.display = 'flex';
             article_project_2.classList.remove('article_project_2_open');
             article_project_animation();
@@ -17,6 +18,7 @@ function project_left(){
             
             break;
         case 1: //먼저시작
+            console.log("먼저시작");
             article_project_1.style.display = 'none';
             article_project_2.classList.add('article_project_2_open');
             article_project_animation();
@@ -29,12 +31,14 @@ function project_left(){
 function project_rights(){
     switch (key) {
         case 0://두번째 시작
+            console.log("두번째 시작");
             article_project_1.style.display = 'flex';
             article_project_2.classList.remove('article_project_2_open');
             article_project_animation();
             zero_checked();
             break;
         case 1: //먼저시작
+            console.log("먼저시작");
             article_project_1.style.display = 'none';
             article_project_2.classList.add('article_project_2_open');
             article_project_animation();
