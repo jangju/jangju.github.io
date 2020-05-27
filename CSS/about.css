@@ -1,5 +1,9 @@
 .article_about{
     padding-top: 40px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 }
 #ABOUT{
     display: flex;
@@ -20,67 +24,40 @@
     height: 10%;
     border-bottom: 3px solid black; 
 }
-/* 
-.introduce{
-    position: relative;
-    border-right: 1px dashed gray;
-    border-top: 1px dashed gray;
-    border-bottom: 1px dashed gray;
-    display: block;
-    margin-left: 12.5%;
-    margin-bottom: 5%;
-    width: 60%;
-    background-color:  #e7e405d3;
 
-}
-
-
-.introduce .menus{
-border: 2px  dotted gray; 
-list-style: none; 
-display: flex; 
-}
-.introduce .menus .menu-link{
-    cursor: pointer;
-    flex: 1;
-    color: black;
-    height: 7rem;
-    font-size: 1.3rem;
-
-    text-align: center;
-    line-height: 100px;
-    
-}
-.introduce .menus .menu-link:hover{
-    color: white;
-}
- */
 .introduce{
     display: flex;
     margin-bottom: 5%;
+    
 }
 #about_left{
     display: inline-block;
-    width: 18%;
+    width: 250px;
     /* padding-right: 3%; */
     border-right: 3px dotted #2b2828;
+    
 
 }
 .juyoung_information{
-    border-bottom: 1.5px solid black;
+    /* border-bottom: 1.5px solid black; */
+    background-color: #e7e405d3;
+    font-weight: 550;
 }
 .juyoung_information_2{
-    font-weight: 600;
+    font-weight: 500;
 }
 #about_right{
     display: inline-block;
-    width: 57%;
+    width: 700px;
     padding-left :2%;
     position: relative;
     
+    
 }
 .introduce .about_1{
-    font-size: 1.4rem;
+    font-size: 1.15rem;
+    font-weight: 300;
+    line-height: 1.7em;/*띄어쓰기*/
 }
 .introduce .about_2{
     display: none;
@@ -95,7 +72,7 @@ display: flex;
     font-size: 1.8rem;
     font-weight: 500;
     display: inline-block;
-    background-color: black;
+    background-color: black; 
     padding: 8px 16px;
     color: white;
     border-radius: 20px;
@@ -116,6 +93,9 @@ display: flex;
 }
 .strong_p{
     font-weight: bold;
+}
+.about_span{
+    border-bottom: 3px solid #bbb804d3;;
 }
 .img_juyoung{
     height: 220px;
@@ -141,10 +121,10 @@ display: flex;
 }
 .menus li i{
     cursor: pointer;
-    border-radius: 60px;
+    border-radius: 100px;
 }
 .menu_active{
-    border-radius: 60px;
+    border-radius: 100px;
     background-color: black;
     color: white;
 }
@@ -251,7 +231,6 @@ display: flex;
 
     }
     .about_1{
-         background-color:  rgb(160, 223, 160);
          height: auto;
          overflow:visible;
     }
