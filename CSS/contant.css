@@ -79,7 +79,8 @@ footer{
   z-index: 9999;
 }
 .footer_span{
-  color: rgb(41, 41, 223);
+  color: rgb(220, 241, 28);
+  
 }
 @media(max-width:449px){
   .fontello_all_div{

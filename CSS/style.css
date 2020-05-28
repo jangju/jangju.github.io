@@ -67,6 +67,24 @@ time, mark, audio, video {
     left: 5px;
 }
 
+#Day_Night_select_2{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    /* justify-content: flex-end; */
+    align-items: flex-end;
+    top: 35%;
+    margin-right: 3%;
+    
+    /* background-color: black; */
+    
+}
+#Day_Night_select_2 input{
+    width: 5%;
+    height: 10vh;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
 @keyframes fadeinout{
     0%{opacity: 0.1;}
     10%{opacity: 0.5;}

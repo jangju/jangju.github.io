@@ -57,6 +57,10 @@
     color: #fffb00d3;/*버튼스크롤 우선순위*/
     border: rgb(39, 48, 53);
 }
+.scroll_top_important{
+     color: #fffb00d3 !important;
+     border: rgb(39, 48, 53);
+}
 
 
 @media(max-width:449px){

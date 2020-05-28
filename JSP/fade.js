@@ -57,7 +57,7 @@ $(document).ready(function () {
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             
             if (bottom_of_window > bottom_of_element) {
-                $(this).animate({ 'opacity': '1', 'margin': '100px' }, 1000);
+                $(this).animate({ 'opacity': '1', 'margin': '25px' }, 1000);
                 
             }
             
@@ -69,6 +69,7 @@ function fnMove(num) {//원하는 좌표로 이동
     var offset = $(num).offset();
     $('html, body').animate({ scrollTop: offset.top }, 900);
 }
+
 var home_nav = document.querySelector('#HOME_NAV');
     $(window).scroll(function () {//ABOUT 
         if ($(window).scrollTop() < 600) {
@@ -105,7 +106,7 @@ var home_nav = document.querySelector('#HOME_NAV');
         }
     })
     $(window).scroll(function () {
-        if ($(window).scrollTop() > 2550) {
+        if ($(window).scrollTop() > 2420) {
             $('#CONTANT_NAV').addClass('scroll_top');
             $('#PROJECT_NAV').removeClass('scroll_top');
         } else {
@@ -113,9 +114,65 @@ var home_nav = document.querySelector('#HOME_NAV');
         }
     })
 
+function Day_num(){
+    $('#HOME_NAV').removeClass('Night_color_hover_scroll');
+    $('#ABOUT_NAV').removeClass('Night_color_hover_scroll');
+    $('#SKILLS_NAV').removeClass('Night_color_hover_scroll');
+    $('#PROJECT_NAV').removeClass('Night_color_hover_scroll');
+    $('#CONTANT_NAV').removeClass('Night_color_hover_scroll');
+    $(window).scroll(function () {//ABOUT 
+        if ($(window).scrollTop() < 600) {
+            home_nav.classList.add('scroll_top');
+            $('#HOME_NAV').removeClass('Night_color');
+        }
 
+    })
 
-function Night_num(){
+    $(window).scroll(function () {//SKILLS
+        if ($(window).scrollTop() > 600) {
+            $('#ABOUT_NAV').addClass('scroll_top');
+            $('#HOME_NAV').removeClass('scroll_top');
+            $('#ABOUT_NAV').removeClass('Night_color');
+        } else {
+            $('#ABOUT_NAV').removeClass('scroll_top');
+            $('#ABOUT_NAV').removeClass('Night_color');
+
+        }
+    })
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 1300) {
+            $('#SKILLS_NAV').addClass('scroll_top');
+            $('#ABOUT_NAV').removeClass('scroll_top');
+            $('#SKILLS_NAV').removeClass('Night_color');
+        } else {
+            $('#SKILLS_NAV').removeClass('scroll_top');
+            $('#SKILLS_NAV').removeClass('Night_color');
+        }
+    })
+
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 1800) {
+            $('#PROJECT_NAV').addClass('scroll_top');
+            $('#SKILLS_NAV').removeClass('scroll_top');
+            $('#PROJECT_NAV').removeClass('Night_color');
+        } else {
+            $('#PROJECT_NAV').removeClass('scroll_top');
+            $('#PROJECT_NAV').removeClass('Night_color');
+        }
+    })
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 2420) {
+            $('#CONTANT_NAV').addClass('scroll_top');
+            $('#PROJECT_NAV').removeClass('scroll_top');
+            $('#CONTANT_NAV').removeClass('Night_color');
+        } else {
+            $('#CONTANT_NAV').removeClass('scroll_top');
+            $('#CONTANT_NAV').removeClass('Night_color');
+        }
+    })
+}
+function Night_num(){ 
+    
     $('#HOME_NAV').addClass('Night_color_hover_scroll');
     $('#ABOUT_NAV').addClass('Night_color_hover_scroll');
     $('#SKILLS_NAV').addClass('Night_color_hover_scroll');
@@ -158,11 +215,12 @@ function Night_num(){
             }
         })
         $(window).scroll(function () {
-            if ($(window).scrollTop() > 2550) {
+            if ($(window).scrollTop() > 2420) {
                 $('#CONTANT_NAV').addClass('Night_color');
                 $('#PROJECT_NAV').removeClass('Night_color');
             } else {
                 $('#CONTANT_NAV').removeClass('Night_color');
             }
         })
+    
 };

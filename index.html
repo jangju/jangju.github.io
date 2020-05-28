@@ -30,7 +30,7 @@
     <!--vue.js 스크립트-->
 </head>
 <body>
-    <div id="top_img"></div>
+        <div id="top_img"></div>
         <div id='img_backcolor'>
                 <img id='img_Sun' src="/img/sun.png" alt="해 photo">
                 <img class='img_buliding' src="/img/building_gray.png" alt="빌딩 photo">
@@ -38,15 +38,15 @@
                 <div class="Day_Night_select">
                     <input type="button" class="Day_select_button" value="Day" onclick="Day_select(), Day_num()">
                     <input type="button" class="Night_select_button" value="Night" onclick="Night_select(),Night_num()">
-            </div>
+                </div>
         </div>
         <div id='img_backcolor_2'>
             <img id='img_Moon' src="/img/moon.png" alt="달 photo">
             <img class='img_buliding' src="/img/building.png" alt="빌딩 photo">
             <h1 class='jangjuyoung'>Ju young Portfolio</h1>
             <div class="Day_Night_select">
-                <input type="button" class="Day_select_button" value="Day" onclick="Day_select()">
-                <input type="button" class="Night_select_button" value="Night" onclick="Night_select()">
+                <input type="button" class="Day_select_button" value="Day" onclick="Day_select(), Day_num()">
+                <input type="button" class="Night_select_button" value="Night" onclick="Night_select(),Night_num()">
             </div>
         </div>
    
@@ -59,212 +59,228 @@
             <li class="scroll"><button onclick="fnMove('.footer')"id="CONTANT_NAV" class="button_color">CONTANT</button></li>    
         </ul>
     </nav>
-    <article class="article_about">
-        <h1 id="ABOUT">
-            ABOUT
-        </h1>
-        <div class="introduce fadeinleft">
-            <div></div>
-            <div id="about_left">
-                <img class='img_juyoung ' src="/img/이력서.jpg" alt="증명사진(장주영)" title="장주영_증명사진"></br>
-                <span class="juyoung_information">[ NAME ]</span></br>
-                <span class="juyoung_information_2">장주영</span></br>
-                <span class="juyoung_information">[ PHONE NUMBER ]</span></br>
-                <span class="juyoung_information_2">010-9974-1067</span></br>
-                <span class="juyoung_information">[ E-MAIL ]</span></br>
-                <span class="juyoung_information_2">wkdwndud13@naver.com </span>
+    
+        
+            <div class="Day_Night_select" id="Day_Night_select_2">
+                <input type="button" class="Day_select_button" value="Day" onclick="Day_select(), Day_num()">
+                <input type="button" class="Night_select_button" value="Night" onclick="Night_select(),Night_num()">
             </div>
-                           
-            <div id="about_right">
-                <div class='about_1 '>
-                    <span class="about_Title">웹 개발에 시작하게 된 계기</span><br /><br />
-                    사실 저는 디자인도 소프트웨어 전공도 아닌 하드웨어를 전공 했습니다.<br />하고 싶은 것, 좋아 하는 것이 없었습니다.
-                    하지만, 우연히 코딩이라는 것을 처음 접하게 되며 <span class="about_span">개발을 알게 되었고</span>, 구경을 하며 관심을 가지게 되어 
-                    어느순간 <span class="about_span">"나도 살면서 내 이름으로 된 제품을 만들어보자"</span>라고 생각하며 시작했습니다. <br />그러면서 
-                    사람들에게 <span class="about_span">가장 많이 사용하며 가깝게 다가가는 것이 웹 페이지</span>였습니다. 
-                    사람들에게 보기 좋은 UI/UX를 만들며 언제나 아메리카노 한 잔에 웃을 수 있는
-                    개발자가 되고 싶습니다.
-                
-                </div>
-                <div class='about_2 '>
-                    <span class="about_Title">소통은 모든 것의 만병통치약이다</span>
-                    <br /><br />
-                    말이나 행동을 통해 상대방에게 자신의 생각이나 감정 등의 정보를 전달하고 <br />이해하는 과정이라고 생각합니다.
-                    저는 <span class="about_span">소통을 좋아하는 사람</span>이며, 굉장히 중요하다고 생각합니다.
-                    왜냐하면, 소통은 서로에 대한 이해를 바탕으로 차이를 인정하고, <br />갈등을 해결할 수 있으며,
-                    이러한 <span class="about_span">소통이 사람간에 있어서 모든 것을 해결할 수 있다</span>고 생각하며 <span class="about_span">소통을 기본으로
-                    '열정+배움+노력+끈기'를 가진 장주영</span>의 모습을 보여드리겠습니다.
-                </div>
-                
-                <div class='about_3 '>
-                    <span class="about_Title_2">&nbsp;학 력&nbsp;</span></br></br>
-                    <ul id="about_3_p">
-                        <li>평촌공업고등학교 U-네트워크과 (졸업)<br>(2011.03 ~ 2014.02)</li>
-                        <li>대림대학교 전자통신과 (졸업)<br>(2014.03 ~ 2019.02)</li>
-                        <li>대림대학교 전자통신공학과 학사과정 취득 (졸업)<br />(2019.03 ~ 2020.02)</li><br />
-                        <a href="/daerim_jumsu.pdf" target="_blank" >
-                            <li><span style="display: inline;">대림대학교 성적증명서 보기</span></li>
-                        </a>
-                        <a href="/daerim_bye.pdf" target="_blank" >
-                            <li><span style="display: inline;">대림대학교 졸업증명서 보기</span></li>
-                        </a>
-                    </ul>
             
+            <article class="article_about">
+        
+                <h1 id="ABOUT">
+                    ABOUT
+                </h1>
+        
+                <div class="introduce fadeinleft">
+        
+        
+                    <div id="about_left">
+                        <img class='img_juyoung ' src="/img/이력서.jpg" alt="증명사진(장주영)" title="장주영_증명사진"></br>
+                        <span class="juyoung_information">[ NAME ]</span></br>
+                        <span class="juyoung_information_2">장주영</span></br>
+                        <span class="juyoung_information">[ PHONE NUMBER ]</span></br>
+                        <span class="juyoung_information_2">010-9974-1067</span></br>
+                        <span class="juyoung_information">[ E-MAIL ]</span></br>
+                        <span class="juyoung_information_2">wkdwndud13@naver.com </span>
+                    </div>
+        
+                    <div id="about_right">
+                        <div class='about_1 '>
+                            <span class="about_Title">웹 개발에 시작하게 된 계기</span><br /><br />
+                            사실 저는 디자인도 소프트웨어 전공도 아닌 하드웨어를 전공 했습니다.<br />하고 싶은 것, 좋아 하는 것이 없었습니다.
+                            하지만, 우연히 코딩이라는 것을 처음 접하게 되며 <span class="about_span">개발을 알게 되었고</span>, 구경을 하며 관심을 가지게 되어
+                            어느순간 <span class="about_span">"나도 살면서 내 이름으로 된 제품을 만들어보자"</span>라고 생각하며 시작했습니다. <br />그러면서
+                            사람들에게 <span class="about_span">가장 많이 사용하며 가깝게 다가가는 것이 웹 페이지</span>였습니다.
+                            사람들에게 보기 좋은 UI/UX를 만들며 언제나 아메리카노 한 잔에 웃을 수 있는
+                            개발자가 되고 싶습니다.
+        
+                        </div>
+                        <div class='about_2 '>
+                            <span class="about_Title">소통은 모든 것의 만병통치약이다</span>
+                            <br /><br />
+                            말이나 행동을 통해 상대방에게 자신의 생각이나 감정 등의 정보를 전달하고 <br />이해하는 과정이라고 생각합니다.
+                            저는 <span class="about_span">소통을 좋아하는 사람</span>이며, 굉장히 중요하다고 생각합니다.
+                            왜냐하면, 소통은 서로에 대한 이해를 바탕으로 차이를 인정하고, <br />갈등을 해결할 수 있으며,
+                            이러한 <span class="about_span">소통이 사람간에 있어서 모든 것을 해결할 수 있다</span>고 생각하며 <span class="about_span">소통을
+                                기본으로
+                                '열정+배움+노력+끈기'를 가진 장주영</span>의 모습을 보여드리겠습니다.
+                        </div>
+        
+                        <div class='about_3 '>
+                            <span class="about_Title_2">&nbsp;학 력&nbsp;</span></br></br>
+                            <ul id="about_3_p">
+                                <li>평촌공업고등학교 U-네트워크과 (졸업)<br>(2011.03 ~ 2014.02)</li>
+                                <li>대림대학교 전자통신과 (졸업)<br>(2014.03 ~ 2019.02)</li>
+                                <li>대림대학교 전자통신공학과 학사과정 취득 (졸업)<br />(2019.03 ~ 2020.02)</li><br />
+                                <a href="/daerim_jumsu.pdf" target="_blank">
+                                    <li><span style="display: inline-block;">대림대학교 성적증명서 보기</span></li>
+                                </a>
+                                <a href="/daerim_bye.pdf" target="_blank">
+                                    <li><span style="display: inline-block;">대림대학교 졸업증명서 보기</span></li>
+                                </a>
+                            </ul>
+        
+                        </div>
+                        <div class='about_4 '>
+                            <span class="about_Title_2">경 력 사 항</span></br></br>
+                            <strong class="strong_p">(주)한국EnE (2018.10.22 ~ 2019.12.31)</strong>
+                            <p><br />한국EnE는 주유기를 판매하는 회사였으며 저는 업무지원팀이었습니다. <br />
+                                <span class="about_span">역할은 셀프주유기의 UI테스트하는 것</span>이 저의 주 업무였으며, 연구소의 재고관리도 함께 했었습니다.
+                                또한 외부에서 작업하는 필드 엔지니어들의 지원 요청시 지원을 나가며 필요한 개선사항이 필요할시 자체적으로 나가 주유소 직원들의 NEED를 들으며 개선 사항을
+                                정리하여 <span class="about_span">고객이 만족함을 충족시키기 위한 UI/UX가 되도록 업무</span>를 <br />보조하며 테스트 하였습니다.
+                            </p>
+                        </div>
+                        <div id="menus_position">
+                            <ul class="menus">
+                                <li><i class="icon-number-one menu-link menu_active"></i></li>
+                                <li><i class="icon-number-two menu-link "></i></li>
+                                <li><i class="icon-number-three menu-link "></i></li>
+                                <li><i class="icon-number-four menu-link "></i></li>
+                            </ul>
+                        </div>
+        
+                    </div>
                 </div>
-                <div class='about_4 '>
-                    <span class="about_Title_2">경 력 사 항</span></br></br>
-                    <strong class="strong_p">(주)한국EnE (2018.10.22 ~ 2019.12.31)</strong>
-                    <p><br />한국EnE는 주유기를 판매하는 회사였으며 저는 업무지원팀이었습니다. <br />
-                        <span class="about_span">역할은 셀프주유기의 UI테스트하는 것</span>이 저의 주 업무였으며, 연구소의 재고관리도 함께 했었습니다.
-                        또한 외부에서 작업하는 필드 엔지니어들의 지원 요청시 지원을 나가며 필요한 개선사항이 필요할시 자체적으로 나가 주유소 직원들의 NEED를 들으며 개선 사항을
-                        정리하여 <span class="about_span">고객이 만족함을 충족시키기 위한 UI/UX가 되도록 업무</span>를 <br />보조하며 테스트 하였습니다.
-                    </p>
-                </div>
-                <div id="menus_position">
-                    <ul class="menus">
-                        <li ><i class="icon-number-one menu-link menu_active" ></i></li>
-                        <li ><i class="icon-number-two menu-link " ></i></li>
-                        <li ><i class="icon-number-three menu-link "></i></li>
-                        <li ><i class="icon-number-four menu-link "></i></li>
-                    </ul>
-                </div>
-            </div>
-            </div>
-            </div>
         </div>
-    </article>
-    <article class="article_skills">
-        <h1 id="SKILLS">
-            <main-skills></main-skills>
-            SKILLS
-        </h1>
-        <div id="skillbox_containar_center">
-            <div id="skillbox_containar" class="fadeinleft_2">
-                <div class='skills_skillsbox_box'>
-                    <div class="skills_skillbox ">
-                        <span class="skills_title">HTML5</span>
-                        <div class="skills_img" style="background-image: url('./img/html.png')"></div>
+        </div>
+        </article>
+        <article class="article_skills">
+            <h1 id="SKILLS">
+                <main-skills></main-skills>
+                SKILLS
+            </h1>
+            <div id="skillbox_containar_center">
+                <div id="skillbox_containar" class="fadeinleft_2">
+                    <div class='skills_skillsbox_box'>
+                        <div class="skills_skillbox ">
+                            <span class="skills_title">HTML5</span>
+                            <div class="skills_img" style="background-image: url('./img/html.png')"></div>
+                            <p class="skills_text">
+                                ㆍ<span style='font-weight: 700;'>태그선택자</span> 사용<br />
+                                ㆍ<span style='font-weight: 700;'>문서의 구조</span>에 대해 작성<br />
+                                ㆍ웹표준 기반 <span style='font-weight: 700;'>태그 사용</span><br />
+                            </p>
+                        </div>
+                        <div class="skills_skillbox ">
+                            <span class="skills_title">CSS</span>
+                            <div class="skills_img" style="background-image: url('./img/css.png')"></div>
+                            <p class="skills_text">
+                                ㆍ<span style='font-weight: 700;'>Flex 및 Position</span> 작성<br />
+                                ㆍ<span style='font-weight: 700;'>@Media query</span> 작성<br />
+                                ㆍ<span style='font-weight: 700;'>애니메이션</span>에 대한 이해<br />
+                            </p>
+                        </div>
+                        <div class="skills_skillbox ">
+                            <span class="skills_title">JavaScript</span>
+                            <div class="skills_img" style="background-image: url('./img/js.png')"></div>
+                            <p class="skills_text">
+                                ㆍ<span style='font-weight: 700;'>DOM</span> 작성<br />
+                                ㆍ<span style='font-weight: 700;'>이벤트 함수</span> 응용<br />
+                                ㆍ<span style='font-weight: 700;'>파일 모듈화</span> 정리<br />
+                            </p>
+                        </div>
+                        <div class="skills_skillbox">
+                            <span class="skills_title">Jquery</span>
+                            <div class="skills_img" style="background-image: url('./img/jquery.png')"></div>
+                            <p class="skills_text">
+                                ㆍ<span style='font-weight: 700;'>Jquery 셀렉터</span> 사용<br />
+                                ㆍ<span style='font-weight: 700;'>이벤트 바인딩</span>과 속성 작성<br />
+                            </p>
+                        </div>
+        
+                    </div>
+                    <div class="skills_skillbox_all">
+                        <span class="skills_title">PhotoShop</span>
+                        <div class="skills_img" style="background-image: url('./img/photoshop.png')"></div>
                         <p class="skills_text">
-                            ㆍ<span style='font-weight: 700;'>태그선택자</span> 사용<br />
-                            ㆍ<span style='font-weight: 700;'>문서의 구조</span>에 대해 작성<br />
-                            ㆍ웹표준 기반 <span style='font-weight: 700;'>태그 사용</span><br />
+                            ㆍ<span style='font-weight: 700;'>GTQ포토샵</span> 2급 취득<br />
+                            ㆍ이미지 <span style='font-weight: 700;'>색상 극대화</span><br />
                         </p>
                     </div>
-                    <div class="skills_skillbox ">
-                        <span class="skills_title">CSS</span>
-                        <div class="skills_img" style="background-image: url('./img/css.png')"></div>
+                    <div class="skills_skillbox_all">
+                        <span class="skills_title">Vue.js</span>
+                        <div class="skills_img" style="background-image: url('./img/vue.png')"></div>
                         <p class="skills_text">
-                            ㆍ<span style='font-weight: 700;'>Flex 및 Position</span> 작성<br />
-                            ㆍ<span style='font-weight: 700;'>@Media query</span> 작성<br />
-                            ㆍ<span style='font-weight: 700;'>애니메이션</span>에 대한 이해<br />
+                            ㆍ컴포넌트 통신<br />
+                            ㆍ<span style='font-weight: 700;'>HTTP 통신 라이브러리</span><br />
+        
                         </p>
                     </div>
-                    <div class="skills_skillbox ">
-                        <span class="skills_title">JavaScript</span>
-                        <div class="skills_img" style="background-image: url('./img/js.png')"></div>
+        
+        
+                    <div class="skills_skillbox_all">
+                        <span class="skills_title">C++</span>
+                        <div class="skills_img" style="background-image: url('./img/c++.png')"></div>
                         <p class="skills_text">
-                            ㆍ<span style='font-weight: 700;'>DOM</span> 작성<br />
-                            ㆍ<span style='font-weight: 700;'>이벤트 함수</span> 응용<br />
-                            ㆍ<span style='font-weight: 700;'>파일 모듈화</span> 정리<br />
+                            ㆍ<span style='font-weight: 700;'>API 활용</span><br />
+                            ㆍ랜덤함수 적용<br />
+                            ㆍUI 작업 <br />
                         </p>
                     </div>
-                    <div class="skills_skillbox">
-                        <span class="skills_title">Jquery</span>
-                        <div class="skills_img" style="background-image: url('./img/jquery.png')"></div>
-                        <p class="skills_text">
-                            ㆍ<span style='font-weight: 700;'>Jquery 셀렉터</span> 사용<br />
-                            ㆍ<span style='font-weight: 700;'>이벤트 바인딩</span>과 속성 작성<br />
-                        </p>
+                </div>
+            </div>
+            <!-- <label for="readmore_checkbox" id="skills_button" onclick="event_button()">스킬 더보기</label> -->
+            <div>
+                <label for="readmore_checkbox" class="skills_button" onclick="event_button()">스킬 더보기 ↓</label>
+        
+        </article>
+        <article class="article_projects">
+            <h1 id="Project">
+                Project
+            </h1>
+            <div id="project_containar_center">
+                <div id="project_div">
+                    <div id="article_project_1">
+                        <div class="project_img">
+                            <img src="/img/pj_01.png" alt="프로젝트_장주영" class="pj_01">
+                        </div>
+                        <div class="project_ex">
+                            <span class="project_number">01</span></br>
+                            <span style="font-size: 25px; font-weight: bold;">미니UI 프로젝트</span><br /><br /><br />
+                            <span style="font-size: 15px;">사용자의 관점에서 재미삼아 제작하게 된</br> 미니게임UI 영상입니다.<br /><br /><br />
+                                <span style="font-size: 15px;">자막이 안나오시면 동영상 오른쪽 아래 <br />자막버튼 클릭 부탁드립니다.</span><br /><br />
+            
+                                2019.10 - 2019.11<br />
+                                리눅스/Qt Creator/C++<br />
+                                기획/개발 참여도 100%<br /><br /></span>
+                            <div class="project_intro_button_box">
+                                <div class="project_intro_button" onclick="youtube_on('C2n_y1lDTWY')">
+                                    Youtube 보기
+                                </div>
+                                <div class="project_intro_button" onclick="github_on('RunRun-')">
+                                    Github 보기
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article_project_2">
+                        <img src="/img/pj_02.png" alt="준비중입니다." class="pj_02">
                     </div>
                     
                 </div>
-                <div class="skills_skillbox_all">
-                    <span class="skills_title">PhotoShop</span>
-                    <div class="skills_img" style="background-image: url('./img/photoshop.png')"></div>
-                    <p class="skills_text">
-                        ㆍ<span style='font-weight: 700;'>GTQ포토샵</span> 2급 취득<br />
-                        ㆍ이미지 <span style='font-weight: 700;'>색상 극대화</span><br />
-                    </p>
-                </div>
-                <div class="skills_skillbox_all">
-                    <span class="skills_title">Vue.js</span>
-                    <div class="skills_img" style="background-image: url('./img/vue.png')"></div>
-                    <p class="skills_text">
-                        ㆍ컴포넌트 통신<br />
-                        ㆍ<span style='font-weight: 700;'>HTTP 통신 라이브러리</span><br />
-                
-                    </p>
-                </div>
-        
-        
-                <div class="skills_skillbox_all">
-                    <span class="skills_title">C++</span>
-                    <div class="skills_img" style="background-image: url('./img/c++.png')"></div>
-                    <p class="skills_text">
-                        ㆍ<span style='font-weight: 700;'>API 활용</span><br />
-                        ㆍ랜덤함수 적용<br />
-                        ㆍUI 작업 <br />
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- <label for="readmore_checkbox" id="skills_button" onclick="event_button()">스킬 더보기</label> -->
-        <div>
-        <label
-          for="readmore_checkbox"
-          class="skills_button"
-          onclick="event_button()"
-        >스킬 더보기 ↓</label>
-    
-    </article>
-    <article class="article_projects">
-        <h1 id="Project">
-            Project
-        </h1>
-        <div id="project_div">
-            <div id="article_project_1">
-                <div class="project_img">
-                    <img src="/img/pj_01.png" alt="프로젝트_장주영" class="pj_01">
-                </div>
-                <div class="project_ex">
-                    <span class="project_number">01</span></br>
-                    <span style="font-size: 25px; font-weight: bold;">미니UI 프로젝트</span><br /><br /><br />
-                    <span style="font-size: 15px;">사용자의 관점에서 재미삼아 제작하게 된</br> 미니게임UI 영상입니다.<br /><br /><br />
-                    <span style="font-size: 15px;">자막이 안나오시면 동영상 오른쪽 아래 <br />자막버튼 클릭 부탁드립니다.</span><br /><br />
-        
-                    2019.10 - 2019.11<br />
-                    리눅스/Qt Creator/C++<br />
-                    기획/개발 참여도 100%<br /><br /></span>
-                    <div class="project_intro_button_box">
-                        <div class="project_intro_button" onclick="youtube_on('C2n_y1lDTWY')">
-                            Youtube 보기
-                        </div>
-                        <div class="project_intro_button" onclick="github_on('RunRun-')">
-                            Github 보기
-                        </div>
+                <div id="project_Arrow">
+                    <div id="project_left" onclick="project_left()">
+                        <i class="icon-left-open-big"></i>
+                    </div>
+                    <div id="project_right" onclick="project_rights()">
+                        <i class="icon-right-open-big"></i>
                     </div>
                 </div>
             </div>
-            <div class="article_project_2">
-                <img src="/img/pj_02.png" alt="준비중입니다." class="pj_02">
+            <div id="pos">
+                <li><input type="radio" id="pos1" name="radio" class="cursor" checked onclick="project_zero_button()"><label
+                        for="pos1"></label></li>
+                <li><input type="radio" id="pos2" name="radio" class="cursor" onclick="project_one_button()"><label
+                        for="pos2"></label></li>
+                <!-- <li><input type="radio" id="pos3" name="radio" class="cursor"><label for="pos3"></label></li>
+                                    <li><input type="radio" id="pos4" name="radio" class="cursor"><label for="pos4"></label></li> -->
+            
             </div>
+            
+        </article>
         
-            <div id="project_Arrow">
-                <div id="project_left" onclick="project_left()">
-                    <i class="icon-left-open-big"></i>
-                </div>
-                <div id="project_right" onclick="project_rights()">
-                    <i class="icon-right-open-big"></i>
-                </div>
-            </div>
-        </div>
-        <div id="pos">
-            <li><input type="radio" id="pos1" name="radio" class="cursor" checked onclick="project_zero_button()"><label for="pos1"></label></li>
-            <li><input type="radio" id="pos2" name="radio" class="cursor" onclick="project_one_button()"><label for="pos2"></label></li>
-            <!-- <li><input type="radio" id="pos3" name="radio" class="cursor"><label for="pos3"></label></li>
-            <li><input type="radio" id="pos4" name="radio" class="cursor"><label for="pos4"></label></li> -->
-        </div>
-    </article>
+        
     <footer class='footer'>
         <div class='footer_topbutton_container'>
             <div class="up_button" onclick="fnMove('#top_img')"><span class="up_ani">↑</span></div>

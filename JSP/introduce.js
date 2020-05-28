@@ -25,10 +25,14 @@ function clickHandler(e){
     {
         list[0].classList.remove("menu_active");
         list2[0].classList.remove("menu_active");//
-        if(Night ===2){
-            console.log(Night);
+        if (Day_Night === 1){
             for (var i = 0; i < about_spans.length; ++i) {
-                about_spans[i].style.borderBottom = '5px solid #3769d4';
+                about_spans[i].style.borderBottom = '3px solid #bbb804d3';
+            }
+        }
+        else if (Day_Night ===2){
+            for (var i = 0; i < about_spans.length; ++i) {
+                about_spans[i].style.borderBottom = '3px solid #3769d4';
             }
         }
     }
@@ -44,10 +48,14 @@ function clickHandler(e){
             list[i].classList.remove('menu_active');
             list2[i].classList.remove("menu_active");//
         }
-        if (Night === 2) {
-            console.log(Night);
+        if (Day_Night === 1) {
             for (var i = 0; i < about_spans.length; ++i) {
-                about_spans[i].style.borderBottom = '5px solid #3769d4';
+                about_spans[i].style.borderBottom = '3px solid #bbb804d3';
+            }
+        }
+        else if (Day_Night === 2) {
+            for (var i = 0; i < about_spans.length; ++i) {
+                about_spans[i].style.borderBottom = '3px solid #3769d4';
             }
         }
         
@@ -66,9 +74,14 @@ function clickHandler(e){
         list2[0].classList.remove("menu_active");//
         list2[2].classList.remove("menu_active");//
         list2[3].classList.remove("menu_active");//
-        if (Night === 2) {
+        if (Day_Night === 1) {
             for (var i = 0; i < about_spans.length; ++i) {
-                about_spans[i].style.borderBottom = '5px solid #3769d4';
+                about_spans[i].style.borderBottom = '3px solid #bbb804d3';
+            }
+        }
+        else if (Day_Night === 2) {
+            for (var i = 0; i < about_spans.length; ++i) {
+                about_spans[i].style.borderBottom = '3px solid #3769d4';
             }
         }
         
@@ -87,10 +100,14 @@ function clickHandler(e){
         list2[0].classList.remove("menu_active");//
         list2[1].classList.remove("menu_active");//
         list2[3].classList.remove("menu_active");//
-        if (Night === 2) {
-            console.log(Night);
+        if (Day_Night === 1) {
             for (var i = 0; i < about_spans.length; ++i) {
-                about_spans[i].style.borderBottom = '5px solid #3769d4';
+                about_spans[i].style.borderBottom = '3px solid #bbb804d3';
+            }
+        }
+        else if (Day_Night === 2) {
+            for (var i = 0; i < about_spans.length; ++i) {
+                about_spans[i].style.borderBottom = '3px solid #3769d4';
             }
         }
         
@@ -107,10 +124,14 @@ function clickHandler(e){
             list[i].classList.remove('menu_active');
             list2[i].classList.remove("menu_active");//
         }
-        if (Night === 2) {
-            console.log(Night);
+        if (Day_Night === 1) {
             for (var i = 0; i < about_spans.length; ++i) {
-                about_spans[i].style.borderBottom = '5px solid #3769d4';
+                about_spans[i].style.borderBottom = '3px solid #bbb804d3';
+            }
+        }
+        else if (Day_Night === 2) {
+            for (var i = 0; i < about_spans.length; ++i) {
+                about_spans[i].style.borderBottom = '3px solid #3769d4';
             }
         }
     }

@@ -54,7 +54,11 @@ function project_rights(){
 function zero_checked(){
     pos_checked[0].checked = true;
     pos_checked[1].checked = false;
-    if(Night === 2){
+    if (Day_Night === 1) {
+        pos_color[0].style.background = '#fffb00';
+        pos_color[1].style.background = '#fff';
+    }
+    else if (Day_Night === 2){
         pos_color[0].style.background = '#3769d4';
         pos_color[1].style.background = '#fff';
     }
@@ -62,7 +66,11 @@ function zero_checked(){
 function one_cheked(){
     pos_checked[0].checked = false;
     pos_checked[1].checked = true;
-    if(Night === 2){
+    if (Day_Night === 1){
+        pos_color[0].style.background = '#fff';
+        pos_color[1].style.background = '#fffb00';
+    }
+    else if (Day_Night === 2){
         pos_color[0].style.background = '#fff';
         pos_color[1].style.background = '#3769d4';
     }
