@@ -21,6 +21,8 @@
     <script src="JSP/index.js" defer></script>
     <script src="JSP/portpolio.js" defer></script>
     <link rel="stylesheet" href="/fontello-ed106091/css/fontello.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
+        integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
     <!-- <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script> -->
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
@@ -233,17 +235,45 @@
                 <div id="project_div">
                     <div id="article_project_1">
                         <div class="project_img">
-                            <img src="/img/pj_01.png" alt="프로젝트_장주영" class="pj_01">
+                            <img src="/img/pj_01.png" alt="프로젝트_TodoList" class="pj_01">
+                        </div>
+                        <div class="projeect_ex">
+                            <span class="project_number">01</span></br>
+                            <span style="font-size: 25px; font-weight: bold;">Todo List!</span><br /><br /><br />
+                            <span style='font-weight: 600;'>※개요</span></br>
+                            <span style="font-size: 15px;">목표와 계획들을 간단하게 기록할 메모장<br /><br /><br />
+                                
+                            <span style='font-weight: 600;'>※제작 일정과 주요기술</span></br>
+                                2020.5 - 2020.6<br />
+                                Vue.js<br /><br />
+                            <span style='font-weight: 600;'>※주요 역할</span></br>
+                                할 일 완료기능, 한 일 삭제기능 가능<br /><br /></span>
+                            <div class="project_intro_button_todolist" onclick="todolist_on('todolist-')">
+                                사이트 보기
+                            </div>
+                    
+                        </div>
+                    
+                    
+                        <!-- <img src="/img/pj_02.png" alt="준비중입니다." class="pj_02"> -->
+                    </div>
+                    <div class="article_project_2">
+                        <div class="project_img">
+                            <img src="/img/pj_02.png" alt="프로젝트_장주영" class="pj_01">
                         </div>
                         <div class="project_ex">
-                            <span class="project_number">01</span></br>
+                            <span class="project_number">02</span></br>
                             <span style="font-size: 25px; font-weight: bold;">미니UI 프로젝트</span><br /><br /><br />
-                            <span style="font-size: 15px;">사용자의 관점에서 재미삼아 제작하게 된</br> 미니게임UI 영상입니다.<br /><br /><br />
-                                <span style="font-size: 15px;">자막이 안나오시면 동영상 오른쪽 아래 <br />자막버튼 클릭 부탁드립니다.</span><br /><br />
-            
+                            <span style='font-weight: 600;'>※개요</span></br>
+                            <span style="font-size: 15px;">사용자의 관점에서 재미삼아 제작하게 된</br> 미니게임UI 영상입니다.<br /><br />
+                            <span style='font-weight: 600;'>※제작 일정과 주요기술</span></br>
                                 2019.10 - 2019.11<br />
                                 리눅스/Qt Creator/C++<br />
                                 기획/개발 참여도 100%<br /><br /></span>
+                            <span style='font-weight: 600;'>※참고사항</span></br>
+                            <span style="font-size: 15px;">자막이 안나오시면 동영상 오른쪽 아래 <br />자막버튼 클릭 부탁드립니다.</span><br /><br />
+            
+                                
                             <div class="project_intro_button_box">
                                 <div class="project_intro_button" onclick="youtube_on('C2n_y1lDTWY')">
                                     Youtube 보기
@@ -254,9 +284,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="article_project_2">
-                        <img src="/img/pj_02.png" alt="준비중입니다." class="pj_02">
-                    </div>
+                    
+                    
                     
                 </div>
                 <div id="project_Arrow">
@@ -283,7 +312,7 @@
         
     <footer class='footer'>
         <div class='footer_topbutton_container'>
-            <div class="up_button" onclick="fnMove('#top_img')"><span class="up_ani">↑</span></div>
+            <div class="up_button" onclick="fnMove('#top_img')"><span class="up_ani"><i class="fa fa-arrow-up" aria-hidden="true"></i></span></div>
         </div>
         <div class="fontello_all_div">
             <div class="fontello1">

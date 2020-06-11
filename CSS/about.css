@@ -150,6 +150,7 @@
 }
 .Night_color:hover{
     color: #3769d4 !important;
+    
 }
 
 .Night_color_background{
@@ -160,6 +161,10 @@
 .Night_color_hover:hover{
     color : white;
     background-color: #3769d4 !important;
+}
+.Night_color_backgroud_back{
+    color : white;
+    background-color: #365e99 !important;
 }
 /*Navibar 스크롤 전용*/
 

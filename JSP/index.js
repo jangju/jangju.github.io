@@ -2,7 +2,9 @@
 function github_on(e) {
     window.open("https://github.com/jangju/Jang");
 }
-
+function todolist_on(e){
+    window.open("https://jangju.github.io/git_TodoList/");
+}
 var modal_on = false;
 var modal_youtube_on = false;
 var modal = document.getElementsByClassName("modal");

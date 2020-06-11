@@ -57,7 +57,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px;
+    /* margin: 100px; */
 }
 .project_number{
   display: block;
@@ -195,7 +195,22 @@ input[type="radio"]:checked + label{
   margin-right: 15px;
   /* padding: 0px 30px; */
 }
+.project_intro_button_todolist{
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  border: 2px solid #fffb00;
+  transition: all 0.3s ease-in-out;
+  margin-right: 15px;
+}
 .project_intro_button:hover {
+  color: white;
+  background-color: #e7e405d3;
+}
+.project_intro_button_todolist:hover {
   color: white;
   background-color: #e7e405d3;
 }

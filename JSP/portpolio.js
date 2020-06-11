@@ -41,6 +41,7 @@ function project_rights(){
             console.log("먼저시작");
             article_project_1.style.display = 'none';
             article_project_2.classList.add('article_project_2_open');
+            
             article_project_animation();
             
 
