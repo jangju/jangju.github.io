@@ -173,7 +173,7 @@
     color: #3769d4 !important;
 }
 
-@media (max-width: 1200px){
+/* @media (max-width: 1200px){
     .introduce .about_1{
         font-size: 1.1em;
 
@@ -190,7 +190,7 @@
         font-size: 1.1em;
 
     }
-}
+} */
 @media (max-width: 800px){
     .article_about{
         display: flex;
@@ -203,58 +203,60 @@
     .img_juyoung{
         width: 100px;
     }
-    .menus a{
-        width:150px;
-        font-size: 1rem;
-        
-    }
+    
     
 }
 @media (max-width: 449px) {
-    .introduce{
-        width: 380px;
-        height: auto;
+   
+   .introduce{
+       display: flex;
+       flex-flow: column;
+       justify-content: center;
+       align-items: center;
+       overflow-x: hidden;
+       overflow-y: hidden;
+   }
+   .img_juyoung{
+       width: 150px;
+   }
+   #about_left{
+       margin-left:300px ;
+       /* height: 0; */
+       /* width: 0; */
+       border-right: 0;
+       
+   }
+   
+    #about_right{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 350px;
+    height: 400px;
+    margin-left: 35%;
     }
-    .menus{
-        background-color: gray;
-        display: flex;
-        justify-content: space-between;
-        align-items:flex-start;
-        
+    .about_Title{
+        font-size: 1.1rem;
     }
-    .menus a{
-        line-height: 7rem;
-        border-bottom: 1px dashed gray;
-        font-size: 0.7rem;
-        font-weight: 600;
-        padding-left: 15px;
-        padding-right:15px;
-        padding-bottom: 40px;
-        color: black;
-        height: 4.6rem;
-        width: 100%;
-        flex-flow: 1;
+    .introduce .about_1{
+     font-size:0.9rem;
+     
     }
-    .img_juyoung{
-    height: 100px;
-    width: 80px;
-
+    .introduce .about_2{
+     font-size:0.9rem;
+     
     }
-    .article_about{
-        /* margin-bottom: 500px; */
-        word-wrap: normal;
-        font-size: 0.8rem;
-
-
+    .introduce .about_3{
+     font-size:0.9rem;
+     
     }
-    .about_1{
-         height: auto;
-         overflow:visible;
+    .introduce .about_4{
+     font-size:0.9rem;
+     
     }
-    .menu-link{
-        height: 100%;
-        width: 100%;
-    }
+    
+   
+    
     
     #menu-link_2::before{
         content: '장점과 단점';

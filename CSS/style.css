@@ -117,5 +117,10 @@ time, mark, audio, video {
     max-width:100%;
 }
 @media(max-width:449px){
-    
+    #img_Sun{
+        width: 250px;
+    }
+    #Day_Night_select_2{
+        display: none;
+    }
 }
