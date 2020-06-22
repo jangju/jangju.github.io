@@ -160,17 +160,17 @@
 }
 @media(max-width:449px){
     .article_skills #skillbox_containar_center{
-    width: 100%;
-}
+     width: 100%;
+    }
     .skills_skillbox{
-        height: 150px;
-        width: 150px;
+     height: 150px;
+     width: 150px;
     }
     .skills_skillbox_all{
-    width: 150px;
-    height: 150px;
+     width: 150px;
+     height: 150px;
     }
     .skills_text{
-        font-size: 0.8rem;
+     font-size: 0.8rem;
     }
 }
