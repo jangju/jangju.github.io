@@ -38,7 +38,8 @@
     text-align: center;
     margin-left: 33%;
     padding: 6px 30px;
-    font-family: '맑은 고딕', 'Malgun Gothic', serif;
+    /* font-family: '맑은 고딕', 'Malgun Gothic', serif; */
+    font-family: 'Source Sans Pro';
     border:  0px;
 }
 .ul_navis button:hover{

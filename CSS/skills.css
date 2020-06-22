@@ -159,9 +159,12 @@
     background-color: #d4d100d3;
 }
 @media(max-width:449px){
+    .article_skills #skillbox_containar_center{
+    width: 100%;
+}
     .skills_skillbox{
-    width: 150px;
-    height: 150px;
+        height: 150px;
+        width: 150px;
     }
     .skills_skillbox_all{
     width: 150px;

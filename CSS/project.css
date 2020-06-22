@@ -220,7 +220,12 @@ input[type="radio"]:checked + label{
 @media(max-width:800px){
   #article_project_1{
     display: flex;
-    flex-flow: column;
+    /* flex-flow: column; */
+    flex-direction: column;
+  }
+  .article_project_2{
+    
+    flex-direction: column;
   }
    #project_left{
     font-size: 3rem;
@@ -232,9 +237,20 @@ input[type="radio"]:checked + label{
   }
 }
 @media(max-width:449px){
- 
-  .pj_01{
+  .project_img{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-left: 10%;
+    
+    
+    
+  }
+  .project_img .pj_01{
     width:300px;
+    
+    
+    
   }
   .project_ex{
     width: 250px;
@@ -242,12 +258,5 @@ input[type="radio"]:checked + label{
   .project_intro_button{
     margin-right:12px;
   }
-  #project_left{
-    font-size: 2rem;
-
-  }
-  #project_right{
-    font-size: 2rem;
-
-  }
+  
 }
