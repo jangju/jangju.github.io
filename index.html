@@ -40,8 +40,10 @@
                 <img class='img_buliding' src="/img/building_gray.png" alt="빌딩 photo">
                 <h1 class='jangjuyoung'>Ju young Portfolio</h1>
                 <div class="Day_Night_select">
-                    <input type="button" class="Day_select_button" value="Day" onclick="Day_select(), Day_num()">
-                    <input type="button" class="Night_select_button" value="Night" onclick="Night_select(),Night_num()">
+                    <!-- <input type="button" class="Day_select_button" value="Day" onclick="Day_select(), Day_num()"> -->
+                    <!-- <input type="button" class="Night_select_button" value="Night" onclick="Night_select(),Night_num()"> -->
+                    <button class="Day_select_button" onclick="Day_select(), Day_num()">Day</button>
+                    <button class="Night_select_button" onclick="Night_select(),Night_num()">Night</button>
                 </div>
         </div>
         <div id='img_backcolor_2'>
@@ -49,8 +51,10 @@
             <img class='img_buliding' src="/img/building.png" alt="빌딩 photo">
             <h1 class='jangjuyoung'>Ju young Portfolio</h1>
             <div class="Day_Night_select">
-                <input type="button" class="Day_select_button" value="Day" onclick="Day_select(), Day_num()">
-                <input type="button" class="Night_select_button" value="Night" onclick="Night_select(),Night_num()">
+                <!-- <input type="button" class="Day_select_button" value="Day" onclick="Day_select(), Day_num()">
+                <input type="button" class="Night_select_button" value="Night" onclick="Night_select(),Night_num()"> -->
+                <button class="Day_select_button" onclick="Day_select(), Day_num()">Day</button>
+                <button class="Night_select_button"onclick="Night_select(),Night_num()"><i class="fas fa-moon">Night</i></button>
             </div>
         </div>
    
@@ -64,8 +68,10 @@
         </ul>
     </nav>
             <div class="Day_Night_select" id="Day_Night_select_2">
-                <input type="button" class="Day_select_button" value="Day" onclick="Day_select(), Day_num()">
-                <input type="button" class="Night_select_button" value="Night" onclick="Night_select(),Night_num()">
+                <!-- <input type="button" class="Day_select_button" value="Day" onclick="Day_select(), Day_num()">
+                <input type="button" class="Night_select_button" value="Night" onclick="Night_select(),Night_num()"> -->
+                <button class="Day_select_button" onclick="Day_select(), Day_num()"><i class="far fa-sun">라이트 모드</i></button>
+                <button class="Night_select_button" onclick="Night_select(),Night_num()"><i class="fas fa-moon">다크 모드</i></button>
             </div>
             
             <article class="article_about">
@@ -198,7 +204,7 @@
                         <p class="skills_text">
                             ㆍ컴포넌트 통신<br />
                             ㆍ<span style='font-weight: 700;'>HTTP 통신 라이브러리</span><br />
-                    
+                            ㆍVuex상태 관리<br />
                         </p>
                     </div>
                     <div class="skills_skillbox_all">

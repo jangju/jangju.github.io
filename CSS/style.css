@@ -79,7 +79,7 @@ time, mark, audio, video {
     /* background-color: black; */
     
 }
-#Day_Night_select_2 input{
+#Day_Night_select_2>button{
     width: 5%;
     height: 10vh;
     margin-bottom: 5px;
